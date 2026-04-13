@@ -152,7 +152,12 @@ The filename includes:
 Example:
 
 ```text
-/logs/boot_0000001234_89ABCDEF.log
+11:11:11:11:11:11 = access point
+88:88:88:88:88:88 = target
+```
+
+```text
+Example log file: /logs/boot_0000001234_881E9D41.log
 
 [0000001701 ms] START session=881E9D41
 [0000002702 ms] MONITOR_READY
