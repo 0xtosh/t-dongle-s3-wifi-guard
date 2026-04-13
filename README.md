@@ -2,9 +2,13 @@
 
 This project turns the [LilyGO T-Dongle-S3](https://lilygo.cc/products/t-dongle-s3) into a portable passive deauthentication attack detector.
 
-![lilygo](images/lilygo.png)
 
+<img src="images/lilygo.png" width=136x188>
 It does not transmit frames. It passively monitors 2.4 GHz Wi-Fi management traffic in promiscuous mode, looks for repeated deauthentication bursts, shows the currently targeted MAC address on the built-in display, blinks the onboard RGB LED red during an alert, and writes throttled event logs to the SD card.
+
+## Demo
+
+<img src="images\demo.gif">
 
 ## Features
 
