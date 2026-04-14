@@ -46,7 +46,11 @@ This repository is already configured to build the detector example through [pla
 - PowerShell standalone export: [scripts/export_standalone_repo.ps1](scripts/export_standalone_repo.ps1)
 - Windows batch launchers: [build_deauth_detector.bat](build_deauth_detector.bat), [package_deauth_detector.bat](package_deauth_detector.bat), [flash_deauth_detector.bat](flash_deauth_detector.bat), [export_standalone_repo.bat](export_standalone_repo.bat)
 
-## Setup
+## Ready Made Firmware
+
+See the `firmware` directory for pre-compiled images if you do not want to compile your own.
+
+## Setup for compilation
 
 1. Install PlatformIO Core.
 2. Clone this repository.
