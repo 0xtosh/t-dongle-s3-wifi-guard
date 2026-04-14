@@ -93,7 +93,7 @@ The merged image is suitable for publishing on GitHub releases.
 
 ## Flash
 
-Flash the newest packaged image to `COM16`:
+Flash the newest packaged image to the COM port you have e.g. `COM16`:
 
 ```powershell
 .\scripts\flash_deauth_detector.ps1 -Port COM16
@@ -104,6 +104,8 @@ flash_deauth_detector.bat -Port COM16
 ```
 
 Flash a specific merged image:
+
+Note: make sure you connect the stick with the button pushed in and wait 1 seconds before releasing. The screen should look grey/black but should not look off.
 
 ```powershell
 .\scripts\flash_deauth_detector.ps1 -Port COM16 -ImagePath .\release\deauth-detector-T-Dongle-S3-YYYYMMDD-HHMMSS-merged.bin
