@@ -1,0 +1,9 @@
+Environment: T-Dongle-S3
+Created: 20260413-204132
+Merged image: deauth-detector-T-Dongle-S3-20260413-204132-merged.bin
+Bootloader: 0x0000 -> bootloader.bin
+Partitions: 0x8000 -> partitions.bin
+Firmware: 0x10000 -> firmware.bin
+Flash mode: dio
+Flash frequency: 80m
+Flash size: 16MB
